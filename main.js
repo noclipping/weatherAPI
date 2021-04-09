@@ -1,0 +1,1 @@
+(()=>{"use strict";fetch("http://api.openweathermap.org/data/2.5/weather?q=honesdale&appid=fb26cf51dc89b8cefda54030ebd28499&units=imperial",{mode:"cors"}).then((e=>e.json())).then((e=>{console.log(e)}))})();
