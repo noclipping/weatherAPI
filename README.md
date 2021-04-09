@@ -1,2 +1,2 @@
-# weatherAPI
-practice using API finding the weather forecast 
+# weatherAPI ⛈
+🌞 practice using API finding the weather forecast 
