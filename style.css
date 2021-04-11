@@ -1,0 +1,51 @@
+.weather-container{
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+}
+.weather-image {
+    width: 200px;
+    display: inline-block;
+    padding: 0px;
+    
+}
+.temperature {
+    position: absolute;
+    display: inline-block;
+    position: relative;
+    font-size: 70px;
+    margin: 0px;
+    right: 40px;
+    bottom: 65px;
+    
+}
+.description {
+    color: salmon;
+    font-size: 30px;
+}
+input {
+    height: 20px;
+    width: 80%;
+    border: none;
+    border-color: black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+button {
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgb(66, 66, 70);
+    color: rgb(219, 219, 219);
+    border: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
