@@ -15,7 +15,7 @@ let temperature = document.querySelector(".temperature")
 cityButton.addEventListener("click", e=>{
     weatherAPI.json(cityInput.value).then((v)=>{
         console.log(v.weather[0].icon);
-        image.src = `http://openweathermap.org/img/wn/${v.weather[0].icon}@2x.png`
+        image.src = `https://openweathermap.org/img/wn/${v.weather[0].icon}@2x.png`
         description.textContent = v.weather[0].description;
         temperature.textContent = Math.floor(v.main.temp)+"°F"
     })
